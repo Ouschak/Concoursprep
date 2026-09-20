@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "concoursprep"
+version = "0.1.0"
+description = "Moroccan public concours discovery and alert application"
+requires-python = ">=3.11"
+
+[project.scripts]
+concoursprep-health = "concoursprep.health:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
