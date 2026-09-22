@@ -2,7 +2,7 @@ import sys
 
 
 def main() -> int:
-    print("ConcoursPrep health: OK")
+    print("ConcoursPrep health: OK- dev")
     return 0
 
 
